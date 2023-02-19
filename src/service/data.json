@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "item name",
+      "description": "item description",
+      "price": 100,
+      "discount": 10,
+      "img_item": "image url",
+      "img_category": "image url",
+      "in_stock": true,
+      "on_sale": true,
+      "category_id": "id"
+    }
+  ]
+}
