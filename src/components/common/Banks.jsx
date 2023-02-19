@@ -1,5 +1,6 @@
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import '../../assets/css/bank.css';
 import bank_visa from "../../assets/img/bank/visa.svg";
 import bank_mastercard from "../../assets/img/bank/mastercard.svg";
 import bank_amex from "../../assets/img/bank/amex.svg";
@@ -28,7 +29,7 @@ const Banks = () => {
                     <Col xs={col_xs}>
                         <img src={bank_crypto} alt='bank_crypto'/>
                     </Col>
-                    <Col xs={2} >
+                    <Col id='label-more' xs={2} >
                          <span >and 50+ more</span>
                     </Col>
                 </Row>

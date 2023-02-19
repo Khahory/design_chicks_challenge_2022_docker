@@ -1,0 +1,21 @@
+@media (max-width: 1260px) {
+    img {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    img {
+        display: none;
+    }
+}
+
+@media (max-width: 1260px) {
+    #label-more {
+        display: none;
+    }
+
+    #img-banks {
+        text-align: center;
+    }
+}
