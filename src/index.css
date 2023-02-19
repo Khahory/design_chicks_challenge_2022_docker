@@ -1,3 +1,7 @@
+:root {
+    --main-color-page-border: #2e529c;
+}
+
 body {
     background: #37384b;
     color: #fff;
@@ -24,6 +28,19 @@ body {
     color: hsla(0, 0%, 100%, .75) !important;
 }
 
+.background-social {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    background: #303141;
+    color: hsla(0, 0%, 100%, .75) !important;
+}
+
+hr {
+    border-color: var(--main-color-page-border) !important;
+    border-width: 2px 0 0 0 !important;
+}
+
+/*for debug*/
 div {
     /*border: 1px solid red;*/
 }
