@@ -9,9 +9,6 @@
     padding-top: 12px;
 }
 
-.nav-bar-header-items-page {
-}
-
 .nav-bar-header-items-end {
     margin-left: 10%;
 }
@@ -44,6 +41,27 @@
     display: contents;
 }
 
+.aling-item-end {
+    width: 100px !important;
+}
+
 .firt-item {
     margin-left: 50px;
+}
+
+.last-item {
+    padding-top: 0;
+}
+
+.box-sigin {
+    background: #39e29d;
+    color: #303141;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #294898;
+}
+
+.container-page-header {
+    margin-top: 10px !important;
+    margin-right: 20px !important;
 }
