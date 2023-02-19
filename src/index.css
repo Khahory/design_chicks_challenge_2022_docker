@@ -12,6 +12,18 @@ body {
     margin-right: 15px !important;
 }
 
+.container-main-page {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.background-bank {
+    padding-top: 35px;
+    padding-bottom: 20px;
+    background: #2b2c3c;
+    color: hsla(0, 0%, 100%, .75) !important;
+}
+
 div {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
