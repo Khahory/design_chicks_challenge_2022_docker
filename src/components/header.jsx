@@ -15,7 +15,7 @@ const Header = () => {
                          height={31}
                          src={logo} alt='logo'/>
                 </Col>
-                <div className={'content-item'}>
+                <div id={'my-items-nav-bar'} className={'content-item'}>
                     <Col className='nav-bar-header-items-text nav-bar-header-items nav-bar-header-items-page firt-item'>
                         <div>
                             CURRENCY <img src={down_arrow} alt='down_arrow' height={height_icon}/>
@@ -48,12 +48,12 @@ const Header = () => {
                     </Col>
                 </div>
                 <div className={'content-item'}>
-                    <Col xxl={1} className='aling-item-end nav-bar-header-items-text nav-bar-header-items nav-bar-header-items-end'>
+                    <Col id={'my-items-nav-bar'} xxl={1} className='aling-item-end nav-bar-header-items-text nav-bar-header-items nav-bar-header-items-end'>
                         USD <img src={down_arrow} alt='down_arrow' height={height_icon}/>
                     </Col>
-                    <Col xxl={1} className='aling-item-end nav-bar-header-items-text nav-bar-header-items'>
+                    <Col id={'my-items-nav-bar'} xxl={1} className='aling-item-end nav-bar-header-items-text nav-bar-header-items'>
                         <div>
-                            <img src={btn_add_car} alt='down_arrow' height={15}/> CART (5)
+                            <img src={btn_add_car} alt='down_arrow' height={15} style={{marginBottom: '4px'}} /> CART (5)
                         </div>
                     </Col>
                     <Col xxl={1}

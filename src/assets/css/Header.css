@@ -65,3 +65,17 @@
     margin-top: 10px !important;
     margin-right: 20px !important;
 }
+
+@media (max-width: 1600px) {
+  #my-items-nav-bar {
+    display: none;
+  }
+}
+
+
+/*quitar borde si max-width: 1600px*/
+@media (max-width: 1600px) {
+  .nav-bar-border {
+    border-right: none;
+  }
+}
