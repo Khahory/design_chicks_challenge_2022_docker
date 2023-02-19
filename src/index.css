@@ -1,14 +1,15 @@
 :root {
     --main-color-page-border: #2e529c;
+    --main-color-background: #303141;
 }
 
 body {
-    background: #37384b;
-    color: #fff;
+    background: var(--main-color-background) !important;
+    color: #fff !important;
     font-family: Roboto, sans-serif;
     font-size: 14px;
     letter-spacing: .68px;
-    overflow: hidden;
+    height: 100vh;
 }
 
 .container-page {
@@ -31,7 +32,12 @@ body {
 .background-social {
     padding-top: 35px;
     padding-bottom: 20px;
-    background: #303141;
+    background: var(--main-color-background);
+    color: hsla(0, 0%, 100%, .75) !important;
+}
+
+.background-footer {
+    background: var(--main-color-background);
     color: hsla(0, 0%, 100%, .75) !important;
 }
 
