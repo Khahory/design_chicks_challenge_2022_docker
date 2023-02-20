@@ -18,7 +18,7 @@
 }
 
 .nav-bar-border {
-    border-right: 1px solid hsla(0, 0%, 100%, 0.6);
+    border-right: 1px solid hsla(0, 0%, 100%, 0.24);
     padding-top: 0 !important;
     padding-right: 30px !important;
 }
@@ -28,8 +28,7 @@
     font-size: 14px;
     background: #303141;
     color: white;
-    padding-bottom: 13px;
-    padding-top: 13px;
+    padding-bottom: 5px;
     border-bottom: 1px solid #294898;
 }
 
@@ -64,6 +63,7 @@
 .container-page-header {
     margin-top: 10px !important;
     margin-right: 20px !important;
+    padding-bottom: 5px;
 }
 
 @media (max-width: 1500px) {
