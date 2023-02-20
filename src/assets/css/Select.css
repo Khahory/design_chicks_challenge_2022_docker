@@ -24,3 +24,7 @@ option {
 .my-select-group-background .my-input-group-background .my-select {
     padding-left: 6px;
 }
+
+.select-border-right {
+  border-right: 1px solid #4c6085;
+}

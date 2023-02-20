@@ -53,7 +53,7 @@ const ItemFilterList = () => {
                             }}>
                             <Container>
                                 <Row>
-                                    <Col>
+                                    <Col className={'select-border-right'}>
                                         <SelectForm
                                             options={options_price}
                                             start_img={btn_price}
