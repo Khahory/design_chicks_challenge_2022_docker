@@ -53,18 +53,31 @@ hr {
     border-width: 2px 0 0 0 !important;
 }
 
-.main-content-block {
+.container-card {
     background: #303141;
     border: 1px solid var(--main-color-page-border);
     border-radius: 5px;
-    box-shadow: 0 0 20px rgba(44, 45, 51, .8);
+    box-shadow: 0 0 20px rgb(77, 69, 72);
+    padding: 7vh;
 }
 
 .my-title {
     font-size: 40px;
     letter-spacing: -1px;
     font-weight: 600;
+}
 
+.container-main-card {
+    margin-top: 3vh;
+    margin-bottom: 13vh;
+}
+
+.aling-col-right {
+    float: right !important;
+}
+
+.aling-col-right .input-group-append {
+    margin-left: 20px;
 }
 
 /*for debug*/

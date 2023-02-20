@@ -15,8 +15,8 @@ const ItemContainer = () => {
             <div className={'container-main-page'}>
                 <h1 className={'my-title'}>Condimentum consectetur</h1>
                 <ItemFilterList/>
-                <Container>
-                    <div className={'main-content-block'}>
+                <Container className={'container-main-card'}>
+                    <div className={'container-card'}>
                         <Item items={getFetchData()}/>
                     </div>
                 </Container>
