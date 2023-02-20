@@ -6,8 +6,6 @@ import social_twitter from "../../assets/img/social/twitter.svg";
 import social_discord from "../../assets/img/social/discord.svg";
 
 const SocialMedia = () => {
-    const col_xs = 1;
-
     return (
         <div className={'background-social'}>
             <div className='container-main-page'>

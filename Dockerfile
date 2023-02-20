@@ -9,10 +9,9 @@ WORKDIR /home/app
 COPY . .
 
 # add `/home/app/node_modules/.bin` to $PATH
-ENV PATH /home/app/node_modules/.bin:$PATH
 
 # install dependencies
-RUN npm install --silent
+RUN npm install
 RUN npm install -g serve --save
 
 # when the container launches run the following command

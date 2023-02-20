@@ -16,3 +16,4 @@ services:
       - "3000:3000"
     volumes:
       - .:/home/app # live reload (only works with nodemon)
+      - /home/app/node_modules
