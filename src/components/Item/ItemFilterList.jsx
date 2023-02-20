@@ -46,18 +46,30 @@ const ItemFilterList = () => {
                         />
                     </Col>
                     <Col>
-                        <SelectForm
-                            options={options_price}
-                            start_img={btn_price}
-                            end_img={icon_arrow_white}
-                        />
-                    </Col>
-                    <Col>
-                        <SelectForm
-                            options={options_item_type}
-                            start_img={btn_item}
-                            end_img={icon_arrow_white}
-                        />
+                        <div
+                            className={'my-select-group-background'}
+                            style={{
+                                display: "flex",
+                            }}>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <SelectForm
+                                            options={options_price}
+                                            start_img={btn_price}
+                                            end_img={icon_arrow_white}
+                                        />
+                                    </Col>
+                                    <Col>
+                                        <SelectForm
+                                            options={options_item_type}
+                                            start_img={btn_item}
+                                            end_img={icon_arrow_white}
+                                        />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </div>
                     </Col>
                 </Row>
             </Container>

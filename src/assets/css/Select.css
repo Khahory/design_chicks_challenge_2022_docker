@@ -1,0 +1,26 @@
+select {
+    all: unset;
+    color: white;
+    position: relative;
+    width: 100%;
+    padding: 6px 20px 6px 20px;
+}
+
+option {
+    color: black;
+}
+
+.my-select-group-background {
+    background-color: var(--main-color-input-background);
+    border-radius: 0.25rem;
+}
+
+.my-select-group-background .my-input-group-background {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.my-select-group-background .my-input-group-background .my-select {
+    padding-left: 6px;
+}

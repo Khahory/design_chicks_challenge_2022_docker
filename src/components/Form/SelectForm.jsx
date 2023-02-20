@@ -1,4 +1,5 @@
 import btn_type from "../../assets/img/buttons/btn_item_type.png";
+import '../../assets/css/Select.css'
 
 const SelectForm = ({options, start_img, end_img, ...props}) => {
     start_img = start_img ?? btn_type;
@@ -12,7 +13,7 @@ const SelectForm = ({options, start_img, end_img, ...props}) => {
                         <span className="input-group-prepend">
                             <img className={'img-input'} height={23} src={start_img} alt={'btn_type'}/>
                         </span>
-                        <select {...props}>
+                        <select className={'my-select'} {...props}>
                             {options.map((option, index) => (
                                 <option key={index} value={option.value}>
                                     {option.label}
