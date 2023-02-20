@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='container-main-page'>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col xs={1} className={'col-footer col-12 col-md-5 col-lg-3'}>
                             <div>
                                 <img className={'logo'}
                                      height={31}
@@ -19,7 +19,7 @@ const Footer = () => {
                             </div>
                             <div className={'item-footer'}>support@chicksgold.com</div>
                         </Col>
-                        <Col>
+                        <Col className={'col-footer col-12 col-md-5 col-lg-2'}>
                             <div className={'item-footer-text-title'}>
                                 <b>Chicks Gold</b>
                                 <div className={'box-item-footer-text'}>
@@ -30,7 +30,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col className={'col-footer col-12 col-md-5 col-lg-2'}>
                             <div className={'item-footer-text-title'}>
                                 <b>Support</b>
                                 <div className={'box-item-footer-text'}>
@@ -39,7 +39,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col>
+                        <Col className={'col-footer col-12 col-md-5 col-lg-2'}>
                             <div className={'item-footer-text-title'}>
                                 <b>Legal</b>
                                 <div className={'box-item-footer-text'}>
@@ -49,7 +49,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={3}>
+                        <Col >
                             <img src={starts} alt={'starts'} className={'img-starts'}/>
                             <span className={'item-footer-text'}>
                                 Trustpilot Reviews
