@@ -1,7 +1,7 @@
 :root {
     --main-color-page-border: #2e529c;
     --main-color-background: #303141;
-    --main-color-input-background: rgba(76,96,133,.3);
+    --main-color-input-background: rgba(76, 96, 133, .3);
 }
 
 body {
@@ -51,6 +51,20 @@ body {
 hr {
     border-color: var(--main-color-page-border) !important;
     border-width: 2px 0 0 0 !important;
+}
+
+.main-content-block {
+    background: #303141;
+    border: 1px solid var(--main-color-page-border);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(44, 45, 51, .8);
+}
+
+.my-title {
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-weight: 600;
+
 }
 
 /*for debug*/

@@ -24,7 +24,7 @@ const ItemFilterList = () => {
     ];
 
     return (
-        <div className={'container-main-page'}>
+        <div>
             <Container>
                 <Row>
                     <Col>
