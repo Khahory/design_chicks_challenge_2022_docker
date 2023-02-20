@@ -1,6 +1,7 @@
 :root {
     --main-color-page-border: #2e529c;
     --main-color-background: #303141;
+    --main-color-input-background: rgba(76,96,133,.3);
 }
 
 body {

@@ -16,9 +16,9 @@ const ItemContainer = () => {
                 <ItemFilterList/>
                 <Item items={getFetchData()}/>
             </div>
-            < Banks/>
-            < SocialMedia/>
-            < Footer/>
+            <Banks/>
+            <SocialMedia/>
+            <Footer/>
         </div>
     )
 }
