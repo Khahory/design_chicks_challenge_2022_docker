@@ -36,3 +36,6 @@ done size boton ADD carrito: 16x15 https://static.wikia.nocookie.net/zelda_gamep
 
 
 the big box has shadows
+
+red line through price
+text-decoration: line-through solid #fd4a4a;
