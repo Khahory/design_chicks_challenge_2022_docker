@@ -9,7 +9,8 @@ import SocialMedia from "../components/common/SocialMedia";
 // Logic for Item Container
 const ItemContainer = () => {
     return (
-        <div>
+        <div className={'background-img'}>
+            <div className={'background-overlay'} />
             <Header/>
             <div className={'container-main-page'}>
                 <h1>Item Container</h1>

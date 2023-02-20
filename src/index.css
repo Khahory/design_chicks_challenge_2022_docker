@@ -6,6 +6,7 @@
 
 body {
     background: var(--main-color-background) !important;
+    /*background: url("/src/assets/img/backgrounds/zelda.jpg") !important;*/
     color: #fff !important;
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -21,6 +22,11 @@ body {
 .container-main-page {
     width: 1260px;
     margin: 0 auto;
+}
+
+.background-img {
+    position: relative;
+    background: url("/src/assets/img/backgrounds/zelda.jpg") !important;
 }
 
 .background-bank {
