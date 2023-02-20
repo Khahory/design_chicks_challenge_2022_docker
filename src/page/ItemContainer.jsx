@@ -11,8 +11,8 @@ const ItemContainer = () => {
     return (
         <div>
             <Header/>
-            <h1>Item Container</h1>
-            <div>
+            <div className={'container-main-page'}>
+                <h1>Item Container</h1>
                 <ItemFilterList/>
                 <Item items={getFetchData()}/>
             </div>

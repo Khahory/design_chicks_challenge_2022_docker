@@ -3,6 +3,10 @@ import InputForm from "../Form/InputForm";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import btn_games from "../../assets/img/games/game_zelda.png";
+import btn_price from "../../assets/img/buttons/btn_price.png";
+import btn_item from "../../assets/img/buttons/btn_item_type.png";
+import icon_arrow_white from "../../assets/icons/arrow-white.svg";
 
 const ItemFilterList = () => {
     const options_game = [
@@ -24,23 +28,36 @@ const ItemFilterList = () => {
             <Container>
                 <Row>
                     <Col>
-                        <SelectForm options={options_game}/>
+                        <SelectForm
+                            options={options_game}
+                            start_img={btn_games}
+                            end_img={icon_arrow_white}
+                        />
                     </Col>
-                    <Col xs={6} >
+                    <Col xs={5}>
                         <InputForm
                             label="Search"
                             name="search"
                             type="text"
                             value=""
-                            onChange={() => {}}
+                            onChange={() => {
+                            }}
                             error=""
                         />
                     </Col>
                     <Col>
-                        <SelectForm options={options_price}/>
+                        <SelectForm
+                            options={options_price}
+                            start_img={btn_price}
+                            end_img={icon_arrow_white}
+                        />
                     </Col>
                     <Col>
-                        <SelectForm options={options_item_type}/>
+                        <SelectForm
+                            options={options_item_type}
+                            start_img={btn_item}
+                            end_img={icon_arrow_white}
+                        />
                     </Col>
                 </Row>
             </Container>
