@@ -42,11 +42,11 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": 100,
       "discount": 10,
-      "img_item": "item_1.png",
-      "img_category": "category_1.png",
+      "img_item": "item_2.png",
+      "img_category": "category_2.png",
       "in_stock": true,
       "on_sale": true,
-      "category_id": "1"
+      "category_id": "2"
     },
     {
       "id": 5,
@@ -54,11 +54,11 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": 100,
       "discount": 10,
-      "img_item": "item_1.png",
-      "img_category": "category_1.png",
+      "img_item": "item_2.png",
+      "img_category": "category_2.png",
       "in_stock": true,
       "on_sale": true,
-      "category_id": "1"
+      "category_id": "2"
     },
     {
       "id": 6,
@@ -66,11 +66,11 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": 100,
       "discount": 10,
-      "img_item": "item_1.png",
-      "img_category": "category_1.png",
+      "img_item": "item_2.png",
+      "img_category": "category_2.png",
       "in_stock": true,
       "on_sale": true,
-      "category_id": "1"
+      "category_id": "2"
     }
   ]
 }
