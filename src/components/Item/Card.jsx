@@ -24,8 +24,14 @@ const Card = ({item}) => {
                     <Col>
                         <div>
                             <div className={'text-sale'}>
-                                <div className="dot-sale"></div>
-                                <span>{item.on_sale ? "ON SALE" : ""}</span>
+                                {item.on_sale ? (
+                                        <div>
+                                            <div className="dot-sale"></div>
+                                            <span>ON SALE</span>
+                                        </div>
+                                    ) :
+                                    (<div className={'out-sale'}>NOT FOR SALE</div>)
+                                }
                             </div>
                             <div className={'text-sale text-stock'}>
                                 {item.in_stock ? "In Stock" : ""}
@@ -60,8 +66,15 @@ const Card = ({item}) => {
                 </div>
                 {/*item price*/}
                 <div className={'price-card'}>
-                    <span>${item.price}</span> {item.discount > 0 &&
-                    <span className={'old-price-card'}>${item.price - item.discount}</span>}
+                    {
+                        item.on_sale ? (
+                            <div>
+                                <span>${item.price}</span> {item.discount > 0 &&
+                                <span className={'old-price-card'}>${item.price - item.discount}</span>}
+                            </div>
+                        ) : (<div className={'out-sale'}>$</div>)
+                    }
+
                 </div>
                 {/*item description*/}
                 <div className={'content-card-description'}>
@@ -80,7 +93,7 @@ const Card = ({item}) => {
                                 <span>ADD</span>
                                 <span className={'button-box-buy-img'}>
                                         <img src={btn_add_car} height={14} alt={'item_1'}/>
-                                    </span>
+                                </span>
                             </div>
                         </Col>
                     </Row>

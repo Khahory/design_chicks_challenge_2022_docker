@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr;
     max-width: 212px;
-    background-color: #34384b;
+    background-color: var(--main-color-item);
     border-radius: 0.25rem;
     overflow: hidden;
     margin-top: 2%;
@@ -123,4 +123,8 @@
     padding-bottom: 3px;
     position: absolute;
     margin-top: 12px;
+}
+
+.my-card .out-sale {
+    color: var(--main-color-item);
 }
