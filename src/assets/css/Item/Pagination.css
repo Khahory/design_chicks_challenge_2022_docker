@@ -1,0 +1,28 @@
+.my-pagination-container {
+    margin-top: 5%;
+}
+
+.my-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.my-pagination-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 4px;
+    width: 40px;
+    height: 40px;
+}
+
+.backgroud-color-pagination {
+    background-color: #5762d5 !important;
+    border: 1px solid #5762d5;
+    border-radius: 4px;
+}

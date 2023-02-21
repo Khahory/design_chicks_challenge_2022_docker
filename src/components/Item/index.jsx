@@ -5,6 +5,7 @@ import SelectForm from "../Form/SelectForm";
 import btn_sort from "../../assets/img/buttons/btn_sort.png";
 import icon_arrow_white from "../../assets/icons/arrow-white.svg";
 import '../../assets/css/Item/index.css'
+import Pagination from "./Pagination";
 
 const Item = ({items}) => {
     const options_sort = [
@@ -39,6 +40,9 @@ const Item = ({items}) => {
 
             {/*item list*/}
             <ItemList items={items}/>
+
+            {/*pagination*/}
+            <Pagination />
         </div>
     );
 }
