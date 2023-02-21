@@ -17,75 +17,73 @@ const Card = ({item}) => {
     });
 
     return (
-        <div>
-            <div className="my-card">
-                <div id={'my-card'}>
-                    {/*on sale info*/}
+        <div className="my-card">
+            <div id={'my-card'}>
+                {/*on sale info*/}
+                <Row>
+                    <Col>
+                        <div>
+                            <div className={'text-sale'}>
+                                <div className="dot-sale"></div>
+                                <span>{item.on_sale ? "ON SALE" : ""}</span>
+                            </div>
+                            <div className={'text-sale text-stock'}>
+                                {item.in_stock ? "In Stock" : ""}
+                            </div>
+                        </div>
+                    </Col>
+                    <Col>
+                        <InputNumberForm
+                            type={'text'}
+                            has_icon={false}
+                            value={1}/>
+                    </Col>
+                </Row>
+                {/*item img*/}
+                <div className={'img-content-card'}>
+                    <img src={imageSrc} height={63} alt={'item_1'}/>
+                </div>
+                {/*item content*/}
+                <div className={'content-card'}>
                     <Row>
-                        <Col>
-                            <div>
-                                <div className={'text-sale'}>
-                                    <div className="dot-sale"></div>
-                                    <span>{item.on_sale ? "ON SALE" : ""}</span>
-                                </div>
-                                <div className={'text-sale text-stock'}>
-                                    {item.in_stock ? "In Stock" : ""}
-                                </div>
+                        <Col xs={8}>
+                            <div className={'tittle-card'}>
+                                {item.name}
                             </div>
                         </Col>
                         <Col>
-                            <InputNumberForm
-                                type={'text'}
-                                has_icon={false}
-                                value={1}/>
+                            <div className={'aling-col-right'}>
+                                <img src={categorySrc} height={16} alt={'item_1'}/>
+                            </div>
                         </Col>
                     </Row>
-                    {/*item img*/}
-                    <div className={'img-content-card'}>
-                        <img src={imageSrc} height={63} alt={'item_1'}/>
-                    </div>
-                    {/*item content*/}
-                    <div className={'content-card'}>
-                        <Row>
-                            <Col xs={8}>
-                                <div className={'tittle-card'}>
-                                    {item.name}
-                                </div>
-                            </Col>
-                            <Col>
-                                <div className={'aling-col-right'}>
-                                    <img src={categorySrc} height={16} alt={'item_1'}/>
-                                </div>
-                            </Col>
-                        </Row>
-                    </div>
-                    {/*item price*/}
-                    <div className={'price-card'}>
-                        <span>${item.price}</span> {item.discount > 0 &&
-                        <span className={'old-price-card'}>${item.price - item.discount}</span>}
-                    </div>
-                    {/*item description*/}
-                    <div className={'content-card-description'}>
-                        {item.description}
-                    </div>
-                    {/*item buttons*/}
-                    <div className={'content-card-buttons'}>
-                        <Row>
-                            <Col style={{paddingRight: '6px'}}>
-                                <div className={'button-box-detail'}>
-                                    <span>DETAILS</span>
-                                </div>
-                            </Col>
-                            <Col style={{paddingLeft: '6px'}}>
-                                <div className={'button-box-buy'}>
-                                    <span>ADD</span>
-                                    <span className={'button-box-buy-img'}>
+                </div>
+                {/*item price*/}
+                <div className={'price-card'}>
+                    <span>${item.price}</span> {item.discount > 0 &&
+                    <span className={'old-price-card'}>${item.price - item.discount}</span>}
+                </div>
+                {/*item description*/}
+                <div className={'content-card-description'}>
+                    {item.description}
+                </div>
+                {/*item buttons*/}
+                <div className={'content-card-buttons'}>
+                    <Row>
+                        <Col style={{paddingRight: '6px'}}>
+                            <div className={'button-box-detail'}>
+                                <span>DETAILS</span>
+                            </div>
+                        </Col>
+                        <Col style={{paddingLeft: '6px'}}>
+                            <div className={'button-box-buy'}>
+                                <span>ADD</span>
+                                <span className={'button-box-buy-img'}>
                                         <img src={btn_add_car} height={14} alt={'item_1'}/>
                                     </span>
-                                </div>
-                            </Col>
-                        </Row>
-                    </div>
+                            </div>
+                        </Col>
+                    </Row>
                 </div>
             </div>
         </div>
