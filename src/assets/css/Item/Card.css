@@ -10,7 +10,7 @@
 
 .my-card #my-card {
     font-size: 16px;
-    margin: 25px;
+    margin: 21px;
 }
 
 .my-card .tittle-card {
@@ -42,7 +42,7 @@
     color: #f4f4fc;
     padding: 10px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }
 
@@ -51,7 +51,7 @@
     color: #93959f;
     padding: 10px;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
 }
 
@@ -88,8 +88,39 @@
 
 .button-box-buy-img {
     background-color: #454da8;
-    margin-left: 2px;
+    margin-left: 5px;
     padding: 4px 7px;
     border-radius: 3px;
     position: relative;
+}
+
+.dot-sale {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    background-color: #39e29d;
+}
+
+.my-card .text-sale {
+    font-size: 10px;
+    letter-spacing: .52px;
+}
+
+.my-card .text-sale span {
+    margin-left: 1vh;
+    margin-top: 1px;
+    position: absolute;
+}
+
+.my-card .text-stock {
+    border-radius: 2px;
+    color: #39e29d;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-weight: 300;
+    border: 1px solid #39e29d;
+    padding-bottom: 3px;
+    position: absolute;
+    margin-top: 12px;
 }

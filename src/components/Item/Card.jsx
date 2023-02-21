@@ -23,9 +23,15 @@ const Card = ({item}) => {
                     {/*on sale info*/}
                     <Row>
                         <Col>
-                            {item.on_sale ? "ON SALE" : ""}
-                            <br/>
-                            {item.in_stock ? "In Stock" : ""}
+                            <div>
+                                <div className={'text-sale'}>
+                                    <div className="dot-sale"></div>
+                                    <span>{item.on_sale ? "ON SALE" : ""}</span>
+                                </div>
+                                <div className={'text-sale text-stock'}>
+                                    {item.in_stock ? "In Stock" : ""}
+                                </div>
+                            </div>
                         </Col>
                         <Col>
                             <InputNumberForm
@@ -66,13 +72,15 @@ const Card = ({item}) => {
                     <div className={'content-card-buttons'}>
                         <Row>
                             <Col style={{paddingRight: '6px'}}>
-                                <div className={'button-box-detail'}>DETAILS</div>
+                                <div className={'button-box-detail'}>
+                                    <span>DETAILS</span>
+                                </div>
                             </Col>
                             <Col style={{paddingLeft: '6px'}}>
                                 <div className={'button-box-buy'}>
                                     <span>ADD</span>
                                     <span className={'button-box-buy-img'}>
-                                        <img src={btn_add_car} height={16} alt={'item_1'}/>
+                                        <img src={btn_add_car} height={14} alt={'item_1'}/>
                                     </span>
                                 </div>
                             </Col>
