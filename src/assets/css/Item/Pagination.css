@@ -21,6 +21,39 @@
     height: 40px;
 }
 
+.my-pagination-item-prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #5762d5;
+    border-radius: 4px;
+    margin: 0 20px 0 4px;
+}
+
+.my-pagination-item-prev img{
+    color: white;
+    fill: white;
+}
+
+  svg rect {
+    fill: red;
+  }
+
+.my-pagination-item-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #5762d5;
+    border-radius: 4px;
+    margin: 0 4px 0 20px;
+}
+
 .backgroud-color-pagination {
     background-color: #5762d5 !important;
     border: 1px solid #5762d5;
