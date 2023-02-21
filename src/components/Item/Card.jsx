@@ -57,6 +57,26 @@ const Card = ({item}) => {
                         <span>${item.price}</span> {item.discount > 0 &&
                         <span className={'old-price-card'}>${item.price - item.discount}</span>}
                     </div>
+                    {/*item description*/}
+                    <div className={'content-card-description'}>
+                        {item.description}
+                    </div>
+                    {/*item buttons*/}
+                    <div className={'content-card-buttons'}>
+                        <Row>
+                            <Col style={{paddingRight: '6px'}}>
+                                <div className={'button-box-detail'}>DETAILS</div>
+                            </Col>
+                            <Col style={{paddingLeft: '6px'}}>
+                                <div className={'button-box-buy'}>
+                                    <span>ADD</span>
+                                    <span>
+
+                                    </span>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </div>
         </div>

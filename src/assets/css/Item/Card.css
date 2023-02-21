@@ -27,6 +27,44 @@
     margin-top: 2vh;
 }
 
+.my-card .content-card-description {
+    margin-top: 5px;
+    font-size: 10px;
+    letter-spacing: .52px;
+}
+
+.my-card .content-card-button {
+}
+
+.my-card .button-box-buy {
+    background: #5762d5;
+    color: #f4f4fc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.my-card .button-box-detail {
+    background: #363a4c;
+    color: #93959f;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content-card-buttons {
+    margin-top: 2vh;
+}
+
+.content-card-buttons div {
+    font-weight: 600;
+}
+
+.my-card .content-card-buttons .row .col .button-box-buy {
+}
+
 .my-card .price-card .old-price-card {
     margin-left: 5px;
     text-decoration: 2px line-through solid #fd4a4a;
