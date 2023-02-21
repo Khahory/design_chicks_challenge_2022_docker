@@ -15,6 +15,10 @@ option {
     border-radius: 0.25rem;
 }
 
+.my-select-without-border .my-select-group-background {
+    border-radius: 0;
+}
+
 .my-select-group-background .my-input-group-background {
     background-color: transparent;
     padding-left: 0;
