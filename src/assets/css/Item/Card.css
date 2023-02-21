@@ -132,3 +132,9 @@
 .my-card .out-sale {
     color: var(--main-color-item);
 }
+
+@media (max-width: 1200px) {
+    .my-stock-container {
+        display: none;
+    }
+}

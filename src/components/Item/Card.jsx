@@ -33,8 +33,10 @@ const Card = ({item}) => {
                                     (<div className={'out-sale'}>NOT FOR SALE</div>)
                                 }
                             </div>
-                            <div className={'text-sale text-stock'}>
-                                {item.in_stock ? "In Stock" : ""}
+                            <div className={'my-stock-container'}>
+                                <div className={'text-sale text-stock'}>
+                                    {item.in_stock ? "In Stock" : ""}
+                                </div>
                             </div>
                         </div>
                     </Col>
