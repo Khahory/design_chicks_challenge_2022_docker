@@ -15,22 +15,23 @@ const Item = ({items}) => {
 
     return (
         <div>
-            <div>
-                <Row>
-                    <Col>
-                        <h1 className={'item-footer-text'}>Showing 20 - from 125</h1>
-                    </Col>
-                    <Col>
-                        <div className={'aling-col-right'}>
-                            <SelectForm
-                                options={options_sort}
-                                start_img={btn_sort}
-                                end_img={icon_arrow_white}
-                            />
-                        </div>
-                    </Col>
-                </Row>
-            </div>
+            {/*filter*/}
+            <Row>
+                <Col>
+                    <h1 className={'item-footer-text'}>Showing 20 - from 125</h1>
+                </Col>
+                <Col>
+                    <div className={'aling-col-right'}>
+                        <SelectForm
+                            options={options_sort}
+                            start_img={btn_sort}
+                            end_img={icon_arrow_white}
+                        />
+                    </div>
+                </Col>
+            </Row>
+
+            {/*item list*/}
             <ItemList items={items}/>
         </div>
     );

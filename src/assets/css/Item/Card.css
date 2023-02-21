@@ -1,11 +1,11 @@
 .my-card {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 240px;
+    max-width: 212px;
     background-color: #34384b;
     border-radius: 0.25rem;
     overflow: hidden;
-    margin-top: 14%;
+    margin-top: 2%;
 }
 
 .my-card #my-card {
