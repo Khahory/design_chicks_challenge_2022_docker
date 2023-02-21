@@ -24,7 +24,7 @@ const ItemList = ({items}) => {
                 </Row>
             ))}
             <pre>
-                {JSON.stringify(items, null, 2)}
+                {/*{JSON.stringify(items, null, 2)}*/}
             </pre>
         </div>
     );

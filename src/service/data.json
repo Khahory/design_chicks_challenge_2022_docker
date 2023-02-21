@@ -107,6 +107,78 @@
       "in_stock": true,
       "on_sale": false,
       "category_id": "3"
+    },
+    {
+      "id": 10,
+      "name": "Blue Partyhat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 100,
+      "discount": 10,
+      "img_item": "item_4.png",
+      "img_category": "category_4.png",
+      "in_stock": true,
+      "on_sale": false,
+      "category_id": "4"
+    },
+    {
+      "id": 11,
+      "name": "Blue Partyhat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 100,
+      "discount": 10,
+      "img_item": "item_4.png",
+      "img_category": "category_4.png",
+      "in_stock": true,
+      "on_sale": false,
+      "category_id": "4"
+    },
+    {
+      "id": 12,
+      "name": "Blue Partyhat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 100,
+      "discount": 10,
+      "img_item": "item_4.png",
+      "img_category": "category_4.png",
+      "in_stock": true,
+      "on_sale": false,
+      "category_id": "4"
+    },
+    {
+      "id": 13,
+      "name": "Blue Partyhat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 100,
+      "discount": 10,
+      "img_item": "item_5.png",
+      "img_category": "category_5.png",
+      "in_stock": true,
+      "on_sale": false,
+      "category_id": "5"
+    },
+    {
+      "id": 14,
+      "name": "Blue Partyhat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 100,
+      "discount": 10,
+      "img_item": "item_5.png",
+      "img_category": "category_5.png",
+      "in_stock": true,
+      "on_sale": false,
+      "category_id": "5"
+    },
+    {
+      "id": 15,
+      "name": "Blue Partyhat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 100,
+      "discount": 10,
+      "img_item": "item_5.png",
+      "img_category": "category_5.png",
+      "in_stock": true,
+      "on_sale": false,
+      "category_id": "5"
     }
   ]
 }
