@@ -7,6 +7,7 @@ import btn_games from "../../assets/img/games/game_zelda.png";
 import btn_price from "../../assets/img/buttons/btn_price.png";
 import btn_item from "../../assets/img/buttons/btn_item_type.png";
 import icon_arrow_white from "../../assets/icons/arrow-white.svg";
+import "../../assets/css/Item/ItemFilterList.css"
 
 const ItemFilterList = () => {
     const options_game = [
@@ -53,20 +54,24 @@ const ItemFilterList = () => {
                         <Container>
                             <Row>
                                 <Col className={'select-border-right'}>
-                                    <SelectForm
-                                        options={options_price}
-                                        start_img={btn_price}
-                                        end_img={icon_arrow_white}
-                                        label={'Price'}
-                                    />
+                                    <div className={'aling-col-right-filter'}>
+                                        <SelectForm
+                                            options={options_price}
+                                            start_img={btn_price}
+                                            end_img={icon_arrow_white}
+                                            label={'Price'}
+                                        />
+                                    </div>
                                 </Col>
                                 <Col>
-                                    <SelectForm
-                                        options={options_item_type}
-                                        start_img={btn_item}
-                                        end_img={icon_arrow_white}
-                                        label={'Item Type'}
-                                    />
+                                    <div className={'aling-col-right-filter'}>
+                                        <SelectForm
+                                            options={options_item_type}
+                                            start_img={btn_item}
+                                            end_img={icon_arrow_white}
+                                            label={'Item Type'}
+                                        />
+                                    </div>
                                 </Col>
                             </Row>
                         </Container>
