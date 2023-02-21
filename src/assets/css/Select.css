@@ -23,8 +23,19 @@ option {
 
 .my-select-group-background .my-input-group-background .my-select {
     padding-left: 6px;
+    margin-top: 6px;
 }
 
 .select-border-right {
   border-right: 1px solid #4c6085;
+}
+
+.my-select-label {
+    padding-left: 6px;
+    font-size: 10px;
+    position: absolute;
+}
+
+.my-select-games .my-select {
+    padding-bottom: 12px;
 }

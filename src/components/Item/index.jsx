@@ -21,11 +21,14 @@ const Item = ({items}) => {
                     <h1 className={'item-footer-text'}>Showing 20 - from 125</h1>
                 </Col>
                 <Col>
-                    <div className={'aling-col-right'}>
+                    <div
+                        style={{paddingLeft: '14px', paddingRight: '14px', marginRight: '9px'}}
+                        className={'my-select-group-background aling-col-right'}>
                         <SelectForm
                             options={options_sort}
                             start_img={btn_sort}
                             end_img={icon_arrow_white}
+                            label={'Sort by'}
                         />
                     </div>
                 </Col>

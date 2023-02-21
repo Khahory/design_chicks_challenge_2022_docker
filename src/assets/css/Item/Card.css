@@ -8,6 +8,10 @@
     margin-top: 6%;
 }
 
+.my-card .my-form-control {
+    padding: 0.375rem 0.75rem;
+}
+
 .my-card #my-card {
     font-size: 16px;
     margin: 21px;

@@ -26,7 +26,7 @@ const ItemFilterList = () => {
     return (
         <div>
             <Row>
-                <Col>
+                <Col className={'my-select-games'}>
                     <SelectForm
                         options={options_game}
                         start_img={btn_games}
@@ -57,6 +57,7 @@ const ItemFilterList = () => {
                                         options={options_price}
                                         start_img={btn_price}
                                         end_img={icon_arrow_white}
+                                        label={'Price'}
                                     />
                                 </Col>
                                 <Col>
@@ -64,6 +65,7 @@ const ItemFilterList = () => {
                                         options={options_item_type}
                                         start_img={btn_item}
                                         end_img={icon_arrow_white}
+                                        label={'Item Type'}
                                     />
                                 </Col>
                             </Row>
