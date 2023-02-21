@@ -3,6 +3,7 @@ import Col from "react-bootstrap/Col";
 import InputNumberForm from "../Form/InputNumberForm";
 import {useState} from "react";
 import '../../assets/css/Item/Card.css';
+import btn_add_car from '../../assets/img/buttons/btn_add_car.png';
 
 const Card = ({item}) => {
     // image src
@@ -70,8 +71,8 @@ const Card = ({item}) => {
                             <Col style={{paddingLeft: '6px'}}>
                                 <div className={'button-box-buy'}>
                                     <span>ADD</span>
-                                    <span>
-
+                                    <span className={'button-box-buy-img'}>
+                                        <img src={btn_add_car} height={16} alt={'item_1'}/>
                                     </span>
                                 </div>
                             </Col>
