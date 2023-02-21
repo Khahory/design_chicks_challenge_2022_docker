@@ -2,6 +2,9 @@
 ## About this APP
 We are going to replicate a ChicksGold page without using a css framework
 
+### Download
+Docker: https://www.docker.com/
+
 ### How to run this APP
 - Clone this repo
 - Run `docker compose up`
