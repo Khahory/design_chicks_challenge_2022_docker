@@ -1,0 +1,48 @@
+.my-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 240px;
+    background-color: #34384b;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.my-card #my-card {
+    font-size: 16px;
+    margin: 25px;
+}
+
+.my-card .tittle-card {
+    font-size: 14px;
+    letter-spacing: .68px;
+}
+
+.my-card .price-card {
+    font-size: 12px;
+    letter-spacing: .56px;
+    font-weight: 700;
+}
+
+.my-card .content-card {
+    margin-top: 2vh;
+}
+
+.my-card .price-card .old-price-card {
+    margin-left: 5px;
+    text-decoration: 2px line-through solid #fd4a4a;
+    font-weight: 200;
+
+}
+
+.my-card .img-content-card {
+    margin-top: 2vh;
+}
+
+.row {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+}
+
+.aling-col-right {
+    float: right !important;
+}

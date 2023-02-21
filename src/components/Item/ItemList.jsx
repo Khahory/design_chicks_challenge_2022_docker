@@ -1,7 +1,9 @@
+import Card from "./Card";
+
 const ItemList = ({items}) => {
     return (
         <div>
-            <h1>Items list</h1>
+            <Card item={items.items[0]} />
             <pre>
                 {JSON.stringify(items, null, 2)}
             </pre>

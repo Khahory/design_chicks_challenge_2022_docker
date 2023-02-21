@@ -2,15 +2,15 @@
   "items": [
     {
       "id": 1,
-      "name": "item name",
-      "description": "item description",
+      "name": "Blue Partyhat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
       "price": 100,
       "discount": 10,
-      "img_item": "image url",
-      "img_category": "image url",
+      "img_item": "item_1.png",
+      "img_category": "category_1.png",
       "in_stock": true,
       "on_sale": true,
-      "category_id": "id"
+      "category_id": "1"
     }
   ]
 }
