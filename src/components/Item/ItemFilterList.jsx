@@ -25,54 +25,52 @@ const ItemFilterList = () => {
 
     return (
         <div>
-            <Container>
-                <Row>
-                    <Col>
-                        <SelectForm
-                            options={options_game}
-                            start_img={btn_games}
-                            end_img={icon_arrow_white}
-                        />
-                    </Col>
-                    <Col xs={5}>
-                        <InputForm
-                            label="Search"
-                            name="search"
-                            type="text"
-                            value=""
-                            onChange={() => {
-                            }}
-                            error=""
-                        />
-                    </Col>
-                    <Col>
-                        <div
-                            className={'my-select-group-background'}
-                            style={{
-                                display: "flex",
-                            }}>
-                            <Container>
-                                <Row>
-                                    <Col className={'select-border-right'}>
-                                        <SelectForm
-                                            options={options_price}
-                                            start_img={btn_price}
-                                            end_img={icon_arrow_white}
-                                        />
-                                    </Col>
-                                    <Col>
-                                        <SelectForm
-                                            options={options_item_type}
-                                            start_img={btn_item}
-                                            end_img={icon_arrow_white}
-                                        />
-                                    </Col>
-                                </Row>
-                            </Container>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
+            <Row>
+                <Col>
+                    <SelectForm
+                        options={options_game}
+                        start_img={btn_games}
+                        end_img={icon_arrow_white}
+                    />
+                </Col>
+                <Col xs={5}>
+                    <InputForm
+                        label="Search"
+                        name="search"
+                        type="text"
+                        value=""
+                        onChange={() => {
+                        }}
+                        error=""
+                    />
+                </Col>
+                <Col>
+                    <div
+                        className={'my-select-group-background'}
+                        style={{
+                            display: "flex",
+                        }}>
+                        <Container>
+                            <Row>
+                                <Col className={'select-border-right'}>
+                                    <SelectForm
+                                        options={options_price}
+                                        start_img={btn_price}
+                                        end_img={icon_arrow_white}
+                                    />
+                                </Col>
+                                <Col>
+                                    <SelectForm
+                                        options={options_item_type}
+                                        start_img={btn_item}
+                                        end_img={icon_arrow_white}
+                                    />
+                                </Col>
+                            </Row>
+                        </Container>
+                    </div>
+                </Col>
+            </Row>
         </div>
     )
 }

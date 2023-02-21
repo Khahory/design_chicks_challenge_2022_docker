@@ -12,15 +12,13 @@ const ItemContainer = () => {
     return (
         <div className={'background-img'}>
             <Header/>
-            <div className={'container-main-page'}>
+            <Container className={'container-main-card'}>
                 <h1 className={'my-title'}>Condimentum consectetur</h1>
                 <ItemFilterList/>
-                <Container className={'container-main-card'}>
-                    <div className={'container-card'}>
-                        <Item items={getFetchData()}/>
-                    </div>
-                </Container>
-            </div>
+                <div className={'container-card'}>
+                    <Item items={getFetchData()}/>
+                </div>
+            </Container>
             <Banks/>
             <SocialMedia/>
             <Footer/>

@@ -11,6 +11,30 @@
       "in_stock": true,
       "on_sale": true,
       "category_id": "1"
+    },
+    {
+      "id": 2,
+      "name": "Blue Partyhat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 100,
+      "discount": 10,
+      "img_item": "item_1.png",
+      "img_category": "category_1.png",
+      "in_stock": true,
+      "on_sale": true,
+      "category_id": "1"
+    },
+    {
+      "id": 3,
+      "name": "Blue Partyhat",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 100,
+      "discount": 10,
+      "img_item": "item_1.png",
+      "img_category": "category_1.png",
+      "in_stock": true,
+      "on_sale": true,
+      "category_id": "1"
     }
   ]
 }

@@ -5,6 +5,7 @@
     background-color: #34384b;
     border-radius: 0.25rem;
     overflow: hidden;
+    margin-top: 14%;
 }
 
 .my-card #my-card {
@@ -87,8 +88,8 @@
 
 .button-box-buy-img {
     background-color: #454da8;
-    margin-left: 5px;
-    padding: 6px 9px;
+    margin-left: 2px;
+    padding: 4px 7px;
     border-radius: 3px;
     position: relative;
 }

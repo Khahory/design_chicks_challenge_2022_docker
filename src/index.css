@@ -19,11 +19,6 @@ body {
     margin-right: 15px !important;
 }
 
-.container-main-page {
-    width: 1260px;
-    margin: 0 auto;
-}
-
 .background-img {
     position: relative;
     background: url("/src/assets/img/backgrounds/zelda.jpg") !important;
@@ -68,7 +63,7 @@ hr {
 }
 
 .container-main-card {
-    margin-top: 3vh;
+    margin-top: 15vh;
     margin-bottom: 13vh;
 }
 
