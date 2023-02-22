@@ -1,6 +1,6 @@
 (>‿◠)✌
 ## About this APP
-We are going to replicate a ChicksGold page without using a css
+We are going to replicate a ChicksGold page without using only css
 
 ### Download
 Docker: https://www.docker.com/
